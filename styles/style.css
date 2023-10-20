@@ -19,10 +19,12 @@ h1 {
 }
 
 img {
+    display: block;
     width: 40%;
 }
 
 .logo {
+    display: inline-block;
     width: 30%;
 }
 
@@ -47,6 +49,14 @@ a:hover {
 }
 
 a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
     text-decoration: none;
     color: rgb(94, 81, 46);
+}
+
+.back-to-home {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 20px;
 }

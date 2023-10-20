@@ -9,6 +9,11 @@ body {
     text-align: center;
 }
 
+header {
+    text-align: center;
+    margin: 0 auto;
+}
+
 h1, h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 37px;
@@ -22,7 +27,7 @@ h1 {
 img {
     display: block;
     width: 40%;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 .logo {
